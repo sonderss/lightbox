@@ -1,0 +1,173 @@
+body{
+	font-family: Verdana, sans-serif;
+	margin: 0;
+}
+*{
+	box-sizing: border-box;
+}
+
+.row > .column{
+	padding: 0 8px;
+}
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.column{
+	float: left;
+	width: 25%;
+	cursor: pointer;
+}
+.modal{
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	right: 0;
+	overflow: auto;
+	padding-top: 100px;
+}
+.modal-content{
+	position: relative;
+	width: 80%;
+	margin: auto;
+	padding: 0;
+	background-color: #FEFEFE;
+	max-width: 1200px;
+}
+.close{
+	position: absolute;
+	right: 35px;
+	top: 10px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 35px;
+	color: white;
+}
+.close:hover{
+	color: #999;
+	text-decoration: none;
+}	
+.mySlides{
+	display: none;
+}
+.cursor{
+	cursor: pointer;
+}
+.prev,
+.next{
+	position: absolute;
+	width: auto;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	top: 50%;
+	padding: 16px;
+	margin-top: -50px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	-moz-user-select: none;
+	cursor: pointer;
+}
+.next{
+	right: 0;
+	border-radius: 3px 0 3px 0;
+}
+.prev:hover{
+	background-color: rgba(0,0,0,0.8);
+}
+.next:hover{
+	background-color: rgba(0,0,0,0.8);
+}
+.numbertext{
+	color: #F2F2F2;
+	padding: 8px 12px;
+	font-size: 12px;
+	top: 0;
+	position: absolute;
+}	
+img{
+	margin-bottom: -4px;
+}
+.caption-container{
+	text-align: center;
+    font-size: 13px;
+    padding: 2px 16px;
+    background-color: #000000;
+    color: white;
+}
+.demo{
+	opacity: 0.6;
+}	
+.active,
+.demo:hover{
+	opacity: 1;
+}	
+img .hover-shadow {
+	transition: 0.3s;
+}
+.hover-shadow:hover{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
